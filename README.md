@@ -618,7 +618,7 @@ if you can identify the runtime complexity of different algorithms. It's a super
         - [ ] resize(new_capacity) // private function
             - when you reach capacity, resize to double the size
             - when popping an item, if size is 1/4 of capacity, resize to half
-    - [ ] Time
+    - [X] Time
         - O(1) to add/remove at end (amortized for allocations for more space), index, or update
         - O(n) to insert/remove elsewhere
     - [ ] Space
